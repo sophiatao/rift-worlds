@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Rift Worlds</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<div id="canvasContainer"></div>
+		<div id="webGLContainer"></div>
+
+		<body>
+			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+			<script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+			<script src="js/three.min.js"></script>
+			<script src="js/renderers/Projector.js"></script>
+			<script src="js/renderers/CanvasRenderer.js"></script>
+			<script src ='js/background.js'></script>
+			<script src='js/navigation.js'></script>
+			<script src='js/rules.js'></script>
+			<script src='js/character.js'></script>
+			<div class="textContainer centered" id="main">
+				<div class="typewriter">
+					<h1>Welcome to Rift Worlds!</h1>
+				</div>
+				<div class="hoverLink nav emphasis" id="rules_nav">➤ Rules</div>
+				<div class="hoverLink nav emphasis" id="character_nav">➤ Character Sheet</div>
+				<br>
+				<p class="smallText" id="copyright">© 2020 Jackson Tarlin</p>
+			</div>
+			<div class="textContainer invisible" id="rules"></div>
+			<div class="invisible textContainer" id="character">
+			</div>
+		</body>
+
+</html>

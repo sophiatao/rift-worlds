@@ -1,0 +1,62 @@
+_______ _________ _______ _________            _______  _______  _        ______   _______
+(  ____ )\__   __/(  ____ \\__   __/  |\     /|(  ___  )(  ____ )( \      (  __  \ (  ____ \
+| (    )|   ) (   | (    \/   ) (     | )   ( || (   ) || (    )|| (      | (  \  )| (    \/
+| (____)|   | |   | (__       | |     | | _ | || |   | || (____)|| |      | |   ) || (_____
+|     __)   | |   |  __)      | |     | |( )| || |   | ||     __)| |      | |   | |(_____  )
+| (\ (      | |   | (         | |     | || || || |   | || (\ (   | |      | |   ) |      ) |
+| ) \ \_____) (___| )         | |     | () () || (___) || ) \ \__| (____/\| (__/  )/\____) |
+|/   \__/\_______/|/          )_(     (_______)(_______)|/   \__/(_______/(______/ \_______)
+
+
+Rift worlds is an action-packed tabletop role-playing game where anything is possible
+
+- - - THE BASICS - - -
+
+The game is played with three-four players taking on the role of characters, and one player taking
+on the role of the "animator". The animator's job is to create a captivating imaginary world and
+communicate it to the players. It is the players' job to immerse themselves in this world and play
+the role of their character.
+
+In brief, the animator is a storyteller and the other players are actors.
+
+The rules of Rift Worlds present a framework which allows this collaborative story to be played
+like a board game. The rolling of dice injects unpredictability that can cause the characters of
+the story to unexpectedly succeed or fail, creating moments of tension where nobody knows what
+might happen next!
+
+- - - CHARACTERS - - -
+
+For the players, their character is the most important part of the game. Their avatar into the
+Rift Worlds! Characters can specialize in any skill from fashion to basketball to theoretical
+xeno-biology, or anything in between. They can master these skills, becoming respected as
+one of the best in the multiverse at what they do! Characters can also gain interesting gadgets,
+like an X-Ray monocle or a boomerang sword. Other characters might seek to attain amazing powers,
+like the ability to control fire, speak to animals, or master the flowing wushu fist. All of this
+and more is possible with Rift Worlds.
+
+Your characters will go on zany adventures, explore the world, level up, and possibly die horrible
+deaths. Fortunately, making new characters is easy and fun.
+
+- - - CHARACTER ATTRIBUTES - - -
+
+Character attributes are the stats and abilities that let your character interact with the rules.
+The following character attributes are part of a typical Rift Worlds character:
+
+Ability Scores - These numbers represent your character's ability in each of Strength, Dexterity,
+  Intelligence, and Charm.
+
+Energy - Energy is spent to roll dice: each energy allows one die to be cast.
+
+Level - This number represents your character's total prowess.
+
+Health - A number that represents how tough your character is.
+
+Specialties - Specialties are talents your character possesses such as "good at fishing".
+
+Masteries - Masteries are like specialties but turned to 11: "best fisherman from his planet".
+
+Gadgets - Gadgets are unique and special tools your character might possess. Some are magical and
+  some are high-tech, but all are awesome.
+
+Powers - Powers are special abilities your character has access to, such as the ability to control
+  fire or shrink to tiny size. They can be magical, innate, mutant, or from any source you desire.

@@ -1,0 +1,168 @@
+
+body {
+    background: transparent;  /* fallback for old browsers */
+    margin: 0px;
+    overflow: hidden;
+}
+
+.invisible {
+    display: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: auto;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.textContainer {
+    margin: auto;
+    padding: 5%;
+    position: absolute;
+    z-index: 100;
+
+    /* centre on the screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* text styling */
+    font-family: 'Roboto';
+    display:block;
+    color: #00b3ff;
+    text-shadow: 0 0 0.2em #00b3ff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+
+    background: transparent;
+    overflow-y: scroll;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    /*color: #fff;*/
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
+
+#rules {
+    height: 90vh;
+}
+
+#character {
+    width: 60vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: stretch;
+}
+
+.padded {
+    padding: 2%;
+}
+
+.flex-col {
+    padding: 2%;
+    display: flex;
+    margin: 2px;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.bordered {
+    border: 2px solid #00b3ff;
+    border-radius: 8px;
+}
+
+
+h1, h2, .emphasis {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+input, textarea {
+    font-family: 'Roboto';
+    color: #fff;
+    text-shadow: 0 0 0.2em #00b3ff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    background: transparent;
+}
+
+.simplebar-scrollbar::before {
+  background-color: #00b3ff;
+}
+
+
+input[type=text], input[type=number] {
+    width: 100%;
+    border: none;
+    text-shadow: 0 0 0.2em #00b3ff;
+}
+
+textarea {
+    border: none;
+    width: 100%;
+}
+
+.centered {
+     text-align: center;
+}
+
+#copyright {
+    position: relative;
+}
+
+.smallText {
+    font-size: 0.5em;
+}
+
+.nav {
+    font-size: 1.5em;
+}
+
+.hoverLink:hover {
+    color: #00b3ff;
+}
+
+#canvasContainer {
+    position: absolute;
+    z-index: -10;    /* position this canvas at bottom of the other one */
+    background: #000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0px;
+    overflow: hidden;
+}
+
+#webGLContainer {
+    position: absolute;
+    pointer-events: none;   /* this element will not catch any events */
+    z-index: -5;      /* position this canvas on top of the other one */
+    background: transparent;
+}
+
+
