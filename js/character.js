@@ -81,12 +81,12 @@ var html = `
           </div>
         </div>
         <br>
-        <div class="hoverLink nav centered emphasis" onclick="window.print()">➤ Save/Print</div>
+        <div class="hoverLink nav centered emphasis" onclick="genSheet(this)">➤ Save</div>
         <div class="hoverLink nav centered emphasis" id="return_nav">➤ Return</div>
 `
 
 $(document).ready(function () {
-  $('#character').append(html);
+  $('#character_container').append(html);
   $(".nav").click(getPage);
 });
 
@@ -94,3 +94,12 @@ function getImagePreview(event) {
   var image = document.getElementById('sheetPicture');
   image.src = URL.createObjectURL(event.target.files[0]);
 };
+
+function genSheet(el) {
+ console.log($("#character_container"))
+  html2canvas(document.querySelector("#character_container"), { letterRendering: 1, allowTaint : true}).then(canvas => {
+    var image = canvas.toDataURL();
+    var newTab = window.open();
+    newTab.document.body.innerHTML = '<img src="'+image+'">';
+  });
+}
