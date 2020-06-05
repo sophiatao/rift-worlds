@@ -158,9 +158,18 @@ textarea {
 #canvasContainer {
     position: absolute;
     z-index: -10;    /* position this canvas at bottom of the other one */
-    background: #000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #000, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #000, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: #000;
+    background: -webkit-linear-gradient(to top, #000, #0B486B);
+    background: linear-gradient(to top, #000, #0B486B);
+
+/*    background: #360033;
+    background: -webkit-linear-gradient(to top, #360033, #0b8793);
+    background: linear-gradient(to top, #360033, #0b8793);*/
+/*background: #780206;
+background: -webkit-linear-gradient(to bottom, #061161, #780206);
+background: linear-gradient(to bottom, #061161, #780206);*/
+
     margin: 0px;
     overflow: hidden;
 }
@@ -171,4 +180,23 @@ textarea {
     z-index: -5;      /* position this canvas on top of the other one */
     background: transparent;
 }
+
+/*@media print{
+    .body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .textContainer{
+        margin: 0;
+        height:  100%;
+        width:  100%;
+        text-shadow: none;
+    }
+    h1, h2, .nav, .emphasis {
+        color: #111;
+        text-shadow: none;
+    }
+}*/
+
 
