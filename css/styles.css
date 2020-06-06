@@ -159,13 +159,13 @@ textarea {
     position: absolute;
     z-index: -10;    /* position this canvas at bottom of the other one */
 
-    background: #000;
+/*    background: #000;
     background: -webkit-linear-gradient(to top, #000, #0B486B);
-    background: linear-gradient(to top, #000, #0B486B);
+    background: linear-gradient(to top, #000, #0B486B);*/
 
-/*    background: #360033;
+    background: #360033;
     background: -webkit-linear-gradient(to top, #360033, #0b8793);
-    background: linear-gradient(to top, #360033, #0b8793);*/
+    background: linear-gradient(to top, #360033, #0b8793);
 /*background: #780206;
 background: -webkit-linear-gradient(to bottom, #061161, #780206);
 background: linear-gradient(to bottom, #061161, #780206);*/
@@ -198,5 +198,3 @@ background: linear-gradient(to bottom, #061161, #780206);*/
         text-shadow: none;
     }
 }*/
-
-

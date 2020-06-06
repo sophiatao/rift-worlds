@@ -51,9 +51,8 @@ Level - This number represents your character's total prowess.
 
 Health - A number that represents how tough your character is.
 
-Specialties - Specialties are talents your character possesses such as "good at fishing".
-
-Masteries - Masteries are like specialties but turned to 11: "best fisherman from his planet".
+Specialties - Specialties are talents your character possesses such as "good at fishing" or
+"amazing basketball player".
 
 Gadgets - Gadgets are unique and special tools your character might possess. Some are magical and
   some are high-tech, but all are awesome.
