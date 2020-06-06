@@ -159,6 +159,7 @@ textarea {
     position: absolute;
     z-index: -10;    /* position this canvas at bottom of the other one */
 
+    /*black gradient */
 /*    background: #000;
     background: -webkit-linear-gradient(to top, #000, #0B486B);
     background: linear-gradient(to top, #000, #0B486B);*/
