@@ -168,6 +168,8 @@ textarea {
 /*    background: #360033;
     background: -webkit-linear-gradient(to top, #360033, #0b8793);
     background: linear-gradient(to top, #360033, #0b8793); */
+
+    /* Blue-red color gradient*/
     background: #780206;
     background: -webkit-linear-gradient(to bottom, #061161, #780206);
     background: linear-gradient(to bottom, #061161, #780206);
