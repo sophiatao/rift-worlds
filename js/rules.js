@@ -17,7 +17,7 @@ function loadRules(filePath, headerRE) {
             rulesDOM.append('<h2 class="centered">'+rule.replace(/- - -/g, '')+'<h2>');
             /* adds the content of the header as <p>*/
             if ((idx+1) < rules.length) {
-                rulesDOM.append('<p>'+rules[idx+1].trim().replace(/\n\n/g, '<br>')+'</p>');
+                rulesDOM.append('<p>'+rules[idx+1].trim().replace(/\n\n/g, '<br><br>')+'</p>');
             }
         }
     });
